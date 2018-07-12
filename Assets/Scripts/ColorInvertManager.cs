@@ -12,6 +12,12 @@ public class ColorInvertManager : MonoBehaviour
     [Range(0, 1)]
     private float blackAddedPerFrame = 0.1f;
 
+    public AudioClip lightning;
+    public AudioClip gong;
+    private AudioSource source;
+    private float lowPitchRange = .55f;
+    private float highPitchRange = .75f;
+
     private SpriteRenderer groundRender;
 
     IEnumerator currentColorInversionCR;
@@ -19,6 +25,7 @@ public class ColorInvertManager : MonoBehaviour
     private void Awake()
     {
         groundRender = GameObject.FindGameObjectWithTag("Ground").GetComponent<SpriteRenderer>();
+        source = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -38,6 +45,11 @@ public class ColorInvertManager : MonoBehaviour
     private IEnumerator ColorInversion()
     {
         groundRender.color = Color.white;
+
+        source.pitch = Random.Range(lowPitchRange, highPitchRange);
+        source.PlayOneShot(lightning);
+        source.PlayOneShot(gong);
+
         yield return new WaitForSeconds(secondUntilBackToBlackLerpStart);
 
         while (groundRender.color != Color.black)
