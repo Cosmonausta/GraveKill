@@ -1,0 +1,24 @@
+Footstep dust particles for blind sight
+
+Timed event for color inversion?
+
+Color inversion gives away location of enemie : strategy
+
+Left click attack : right click activate color inversion?
+
+color inversion on player detected by enemy?
+
+
+
+Footsteps
+Timed Color inversion event
+Slash attack (Dash)
+Permanent black blood spreads on enemies slashed
+???Enemies red eyes? only other color in the game
+Red blood on player death
+Endless world probably?
+
+For now:
+Objective = Time survived / Enemies killed
+   ? Objective = Kill boss, progression? collectables?
+
