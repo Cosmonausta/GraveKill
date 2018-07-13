@@ -137,7 +137,7 @@ AudioSource:
   m_GameObject: {fileID: 76771414}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: b7b8ae7f12fb84c24aae90349ec2eeff,
+  OutputAudioMixerGroup: {fileID: 243126452899962754, guid: b7b8ae7f12fb84c24aae90349ec2eeff,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: c19c3e30b0e4f4591a3660f794c3c9a2, type: 3}
   m_PlayOnAwake: 1
@@ -1161,12 +1161,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 770117370}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -960.8061, y: -539.99994, z: 0}
+  m_LocalScale: {x: 2.0729365, y: 2.0729365, z: 2.0729365}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1679187100}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &801208919
 Prefab:
@@ -1456,6 +1456,12 @@ Prefab:
       propertyPath: secondUntilBackToBlackLerpStart
       value: 0.62
       objectReference: {fileID: 0}
+    - target: {fileID: 82777480020740008, guid: 5ba9277dc80f24a1789854dfaf91b213,
+        type: 2}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 243785266639806666, guid: b7b8ae7f12fb84c24aae90349ec2eeff,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5ba9277dc80f24a1789854dfaf91b213, type: 2}
   m_IsPrefabParent: 0
@@ -1486,7 +1492,7 @@ AudioSource:
   m_GameObject: {fileID: 1189281714}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: b7b8ae7f12fb84c24aae90349ec2eeff,
+  OutputAudioMixerGroup: {fileID: 243210684772601064, guid: b7b8ae7f12fb84c24aae90349ec2eeff,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 50a808105f91f45b5a09573915b75c26, type: 3}
   m_PlayOnAwake: 0
@@ -1583,7 +1589,7 @@ AudioSource:
   m_GameObject: {fileID: 1189281714}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: b7b8ae7f12fb84c24aae90349ec2eeff,
+  OutputAudioMixerGroup: {fileID: 243210684772601064, guid: b7b8ae7f12fb84c24aae90349ec2eeff,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 3d3878bc7968440cf96d596743551fa8, type: 3}
   m_PlayOnAwake: 0
@@ -2042,6 +2048,7 @@ RectTransform:
   m_Children:
   - {fileID: 1189281718}
   - {fileID: 1976823828}
+  - {fileID: 770117373}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
