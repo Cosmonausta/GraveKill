@@ -30,7 +30,7 @@ public class ColorInvertManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !PauseMenu.GameIsPaused)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             if (currentColorInversionCR != null)
             {
